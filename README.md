@@ -7,9 +7,9 @@ The stylesheet will be updated automaticaly by the addon.<br>
 #
 [![Install](/images/last.fm.png)](https://raw.githubusercontent.com/chafouinerie/UserCSS/main/last-fm-cleansimple.user.css) [Click here to install](https://raw.githubusercontent.com/chafouinerie/UserCSS/main/last-fm-cleansimple.user.css) Last.fm Clean & Simple stylesheet.
 
-<img align="center" src="https://raw.githubusercontent.com/chafouinerie/UserCSS/blob/main/images/LastfmScreenshot2.png" height="80" title="Click to enlarge"></img>
+<img align="center" src="https://github.com/Chafouinerie/UserCSS/blob/main/images//LastfmScreenshot2.png" height="80" title="Click to enlarge"></img>
 <img align="center" src="https://github.com/Chafouinerie/UserCSS/blob/main/images/LastfmScreenshot1.png" height="80" title="Click to enlarge"></img>
-<img align="center" src="https://raw.githubusercontent.com/chafouinerie/UserCSS/main/images/LastfmScreenshot3.png" height="80" title="Click to enlarge"></img>
+<img align="center" src="https://github.com/Chafouinerie/UserCSS/blob/main/images//LastfmScreenshot3.png" height="80" title="Click to enlarge"></img>
 <br>
 
 
