@@ -5,7 +5,7 @@ A [UserCSS](https://github.com/openstyles/stylus/wiki/UserCSS) compatible userst
 
 The stylesheet will be updated automaticaly by the addon.<br>
 #
-[![Install](/images/last.fm.png)](https://raw.githubusercontent.com/chafouinerie/UserCSS/main/last-fm-cleansimple.user.css) [Click here to install](https://raw.githubusercontent.com/chafouinerie/UserCSS/main/last-fm-cleansimple.user.css) Last.fm Clean & Simple stylesheet.
+[![Install](/images/last.fm.png)](https://github.com/chafouinerie/UserCSS/main/last-fm-cleansimple.user.css) [Click here to install](https://raw.githubusercontent.com/chafouinerie/UserCSS/main/last-fm-cleansimple.user.css) Last.fm Clean & Simple stylesheet.
 
 <img align="center" src="https://github.com/Chafouinerie/UserCSS/blob/main/images//LastfmScreenshot2.png" height="80" title="Click to enlarge"></img>
 <img align="center" src="https://github.com/Chafouinerie/UserCSS/blob/main/images/LastfmScreenshot1.png" height="80" title="Click to enlarge"></img>
