@@ -34,10 +34,6 @@ display:none !important;
 color:#ffffff !important;
 }
   
-.countbar-bar-slug {
-background: #48779A !important;
-}
-  
 div.feedback-message, .copyright.col-xs-12, .col-xs-2 {
 display:none !important;
 }
@@ -176,13 +172,7 @@ display: none !important;
 display: none !important;
 }
 
-/* Listening Trends */  
-    
-.kerve .trendwave_inner .bar, .kerve a.btn_trendnav.current, .kerve .trenduser, .kerve a.btn_trendnav.current, .kerve .trenduser {
-background: #48779A !important;
-}
-
- /* Buy Links */
+/* Buy Links */
  
 .lazy-buylinks-toggle--with-icon, .lazy-buylinks-toggle, .amazon-music-deal {
 display: none !important;
