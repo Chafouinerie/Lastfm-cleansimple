@@ -18,7 +18,7 @@ The stylesheet will be updated automaticaly by the addon.<br>
 
 ## Changelog
 
-1.0.4 : Remove "Manage cookies" button<br>
+1.0.4 : Remove "Manage Cookies" button<br>
 1.0.3 : Useless button<br>
 1.0.2 : Remove unused old stuff<br>
 1.0.1 : UserCss adaptation<br>
