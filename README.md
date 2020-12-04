@@ -21,7 +21,7 @@ The stylesheet will be updated automaticaly by the addon.<br>
 1.0.5 : Remove "Listening Reports"<br>
 1.0.4 : Remove "Manage Cookies" button<br>
 1.0.3 : Remove an useless button<br>
-1.0.2 : Remove unused old stuff<br>
+1.0.2 : Remove unused old code<br>
 1.0.1 : UserCSS adaptation<br>
 1.0.0 : Migration to GithHub<br>
 
