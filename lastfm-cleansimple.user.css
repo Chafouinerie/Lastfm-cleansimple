@@ -93,15 +93,11 @@ display: none !important;
 #_evh-link {
 display: none !important;
 }
-
-.scrobble-stats-info-toggle {
-display: none !important;
-}
   
 .ot-sdk-show-settings {
 display: none !important;
 }
-  
+    
 /* Hyde separator */
     
 .section-with-separator.hidden-xs.tonefuze--desktop.tonefuze{
@@ -120,8 +116,24 @@ margin-top:0px;
     
 .col-sidebar.hidden-xs > .buffer-standard:nth-child(2){
 margin-top:0px;
+}   
+    
+/* Quick Create Playlists */
+    
+.hidden-xs.col-sidebar > form.buffer-standard.section-with-separator{
+display:none!important;
+} 
+ 
+/* Scrobble Stats */
+    
+.hidden-xs.col-sidebar > section.buffer-standard.section-with-separator > .buffer-standard.text-light.text-12  {
+display:none!important;
 }
 
+.scrobble-stats-info-toggle {
+display: none !important;
+}
+    
 /* Last.year */
   
 .col-sidebar--long.col-sidebar > .hidden-xs {
