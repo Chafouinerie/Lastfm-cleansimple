@@ -21,7 +21,8 @@ The stylesheet will be updated automaticaly by the addon.<br>
 
 ## Changelog
 
-1.0.6 : Hyde separator<br>
+1.0.7 : Remove "Quick Create Playlists"<br>
+1.0.6 : Remove separator<br>
 1.0.5 : Remove "Listening Reports"<br>
 1.0.4 : Remove "Manage Cookies" button<br>
 1.0.3 : Remove an useless button<br>
