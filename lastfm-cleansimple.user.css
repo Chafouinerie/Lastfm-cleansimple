@@ -1,7 +1,7 @@
 /* ==UserStyle==
 @name        Last.fm - Clean & Simple
 @namespace   chafouinerie
-@version     1.0.5
+@version     1.0.6
 @homepageURL https://github.com/chafouinerie/Lastfm-cleansimple
 @updateURL   https://raw.githubusercontent.com/Chafouinerie/Lastfm-cleansimple/main/lastfm-cleansimple.user.css
 @license     CC-BY-SA-4.0
@@ -100,6 +100,26 @@ display: none !important;
   
 .ot-sdk-show-settings {
 display: none !important;
+}
+  
+/* Hyde separator */
+    
+.section-with-separator.hidden-xs.tonefuze--desktop.tonefuze{
+display:none!important;
+}
+    
+.section-with-separator::after{
+display:none!important;
+}
+    
+.user-list-shared-artists,
+.user-list-shared-artists:first-child,
+.col-sidebar.hidden-xs > section.buffer-standard{
+margin-top:0px;
+}
+    
+.col-sidebar.hidden-xs > .buffer-standard:nth-child(2){
+margin-top:0px;
 }
 
 /* Last.year */
