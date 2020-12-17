@@ -1,7 +1,7 @@
 /* ==UserStyle==
 @name        Last.fm - Clean & Simple
 @namespace   chafouinerie
-@version     1.0.7
+@version     1.0.8
 @homepageURL https://github.com/chafouinerie/Lastfm-cleansimple
 @updateURL   https://raw.githubusercontent.com/Chafouinerie/Lastfm-cleansimple/main/lastfm-cleansimple.user.css
 @license     CC-BY-SA-4.0
@@ -134,7 +134,7 @@ display:none!important;
 display: none !important;
 }
     
-/* Last.year */
+/* Listening Reports */
   
 .col-sidebar--long.col-sidebar > .hidden-xs {
 display: none !important;
@@ -158,6 +158,18 @@ display: none !important;
 
 .clearfix.content-form.section-with-settings.content-form {
 margin-top: 0px;
+}
+  
+.user-dashboard-history-subscribe-banner-cta-inner.user-dashboard-module {
+display: none !important;
+}
+
+.user-dashboard-col.col-sm-12 > .user-dashboard-module > .user-dashboard-module-inner-wrap {
+display: none !important;
+}
+  
+.minimal-navigation-item--month.minimal-navigation-item.navlist-item > .minimal-navigation-item-link {
+display: none !important;
 }
 
 /* Chart List */
