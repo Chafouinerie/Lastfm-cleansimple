@@ -21,6 +21,7 @@ The stylesheet will be updated automaticaly by the addon.<br>
 
 ## Changelog
 
+1.0.9 : Pice chart look-alike Tasteometer<br>
 1.0.8 : Remove "Upgrade to pro" things<br>
 1.0.7 : Remove "Quick Create Playlists"<br>
 1.0.6 : Remove separator<br>
