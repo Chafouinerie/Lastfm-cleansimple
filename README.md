@@ -21,6 +21,7 @@ The stylesheet will be updated automaticaly by the addon.<br>
 
 ## Changelog
 
+1.0.8 : Remove some "Upgrade to pro" things<br>
 1.0.7 : Remove "Quick Create Playlists"<br>
 1.0.6 : Remove separator<br>
 1.0.5 : Remove "Listening Reports"<br>
