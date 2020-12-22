@@ -21,7 +21,6 @@ The stylesheet will be updated automaticaly by the addon.<br>
 
 ## Changelog
 
-1.1.0 : Remove an other "Udpdate to Pro" button<br>
 1.0.9 : Pice chart look-alike Tasteometer<br>
 1.0.8 : Remove "Upgrade to Pro" things<br>
 1.0.7 : Remove "Quick Create Playlists"<br>
