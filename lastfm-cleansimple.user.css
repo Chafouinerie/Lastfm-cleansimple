@@ -177,8 +177,14 @@ display: none !important;
 .auth-dropdown-pro-text.auth-dropdown-menu-item {
 display: none !important;
 }
+
+/* Music */
   
 section.music-section:nth-of-type(3) {
+display: none !important;
+}
+  
+div.page-content.container:nth-of-type(8) {
 display: none !important;
 }
 
