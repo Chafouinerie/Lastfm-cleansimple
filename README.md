@@ -21,6 +21,7 @@ The stylesheet will be updated automaticaly by the addon.<br>
 
 ## Changelog
 
+1.2.0 : Update of "Social Links" code<br>
 1.1.0 : Remove some glitchs on "Music" page<br>
 1.0.9 : Pice chart look-alike Tasteometer<br>
 1.0.8 : Remove "Upgrade to Pro" things<br>
