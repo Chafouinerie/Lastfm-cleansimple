@@ -1,7 +1,7 @@
 /* ==UserStyle==
 @name        Last.fm - Clean & Simple
 @namespace   chafouinerie
-@version     1.0.1
+@version     1.2.0
 @homepageURL https://github.com/chafouinerie/Lastfm-cleansimple
 @updateURL   https://raw.githubusercontent.com/Chafouinerie/Lastfm-cleansimple/main/lastfm-cleansimple.user.css
 @license     CC-BY-SA-4.0
@@ -232,10 +232,6 @@ display:none !important;
   
 /* Social Links */ 
 
-.share-desktop {
-display: none !important;
-}
-
 .share-button-profile {
 display: none !important;
 }
@@ -244,8 +240,21 @@ display: none !important;
 display: none !important;
 }
   
-top-artists > .buffer-standard > .share-chart > .share-button-profile.disclose-trigger {
-display: none !important;
+.share-desktop,
+.share-mobile,
+.share-chart .share-button-profile,
+.user-dashboard-module .user-dashboard-module-share,
+.user-dashboard-share,
+.share-footer,
+.share-chart{
+display:none!important;
+}
+.stationlinks,
+.buylinks{
+margin-top:0px;
+}
+.section-with-settings.section-with-share .section-control {
+right: 26px;
 }
 
 /* Buy Links */
