@@ -14,6 +14,10 @@ The stylesheet will be updated automaticaly by the addon.<br>
 
 ## Screenshots
 
+![1](https://github.com/Chafouinerie/Lastfm-cleansimple/blob/main/images//LastfmScreenshot1.png?raw=true)
+![2](https://github.com/Chafouinerie/Lastfm-cleansimple/blob/main/images//LastfmScreenshot2.png?raw=true)
+![3](https://github.com/Chafouinerie/Lastfm-cleansimple/blob/main/images//LastfmScreenshot3.png?raw=true)
+
 <img align="center" src="https://github.com/Chafouinerie/Lastfm-cleansimple/blob/main/images//LastfmScreenshot1.png" height="80" title="Click to enlarge"></img>
 <img align="center" src="https://github.com/Chafouinerie/Lastfm-cleansimple/blob/main/images/LastfmScreenshot2.png" height="80" title="Click to enlarge"></img>
 <img align="center" src="https://github.com/Chafouinerie/Lastfm-cleansimple/blob/main/images//LastfmScreenshot3.png" height="80" title="Click to enlarge"></img>
