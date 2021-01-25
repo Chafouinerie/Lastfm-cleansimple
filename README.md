@@ -16,7 +16,7 @@ No Footer<br>
 No "Updade to Pro"<br>
 Square Avatar<br>
 Flat buttons<br>
-Hide Trending Tracks sectionv<br>
+Hide Trending Tracks section<br>
 Hide Features section<br>
 Hide cookie settings button<br>
 Hide unavailable shouts<br>
@@ -34,7 +34,8 @@ Etc.<br>
 
 ## Changelog
 
-1.2.2 : Minor things<br>
+1.2.2 : Minor change<br>
+1.2.1 : Minor change<br>
 1.2.0 : Update "Social Links" code<br>
 1.1.0 : Remove some glitchs on "Music" page<br>
 1.0.9 : Pice chart look-alike Tasteometer<br>
