@@ -13,7 +13,7 @@ No Logo<br>
 No Ads<br>
 No buy links<br>
 No Footer<br>
-No "Uptade to Pro"<br>
+No "Updade to Pro"<br>
 Square Avatar<br>
 Flat buttons<br>
 Hide Trending Tracks sectionv<br>
