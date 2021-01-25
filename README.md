@@ -12,9 +12,10 @@ The stylesheet will be updated automaticaly by the addon.<br>
 No Logo<br>
 No Ads<br>
 No buy links<br>
+No Footer<br>
+No "Uptade to Pro"<br>
 Square Avatar<br>
 Flat buttons<br>
-No Footer<br>
 Hide Trending Tracks sectionv<br>
 Hide Features section<br>
 Hide cookie settings button<br>
@@ -33,7 +34,7 @@ Etc.<br>
 
 ## Changelog
 
-1.2.2 : Minmor things<br>
+1.2.2 : Minor things<br>
 1.2.0 : Update "Social Links" code<br>
 1.1.0 : Remove some glitchs on "Music" page<br>
 1.0.9 : Pice chart look-alike Tasteometer<br>
