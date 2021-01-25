@@ -9,7 +9,7 @@ The stylesheet will be updated automaticaly by the addon.<br>
 
 ## Features
 
-No Logo
+No Logo<br>
 No Ads<br>
 No buy links<br>
 Square Avatar<br>
