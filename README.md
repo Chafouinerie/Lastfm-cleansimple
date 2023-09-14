@@ -34,6 +34,7 @@ Etc.<br>
 
 ## Changelog
 
+1.2.3 : Minor change<br>
 1.2.2 : Minor change<br>
 1.2.1 : Minor change<br>
 1.2.0 : Update "Social Links" code<br>
@@ -48,4 +49,3 @@ Etc.<br>
 1.0.2 : Remove unused old code<br>
 1.0.1 : UserCSS adaptation<br>
 1.0.0 : Migration to GitHub<br>
-
