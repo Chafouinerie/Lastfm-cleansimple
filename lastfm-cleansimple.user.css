@@ -10,10 +10,6 @@
 
 @-moz-document domain("www.last.fm"){
 
-.header-background {
-background-image: url(data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAEAAAABCAMAAAAoyzS7AAAAGXRFWHRTb2Z0d2FyZQBBZG9iZSBJbWFnZVJlYWR5ccllPAAAAyZpVFh0WE1MOmNvbS5hZG9iZS54bXAAAAAAADw/eHBhY2tldCBiZWdpbj0i77u/IiBpZD0iVzVNME1wQ2VoaUh6cmVTek5UY3prYzlkIj8+IDx4OnhtcG1ldGEgeG1sbnM6eD0iYWRvYmU6bnM6bWV0YS8iIHg6eG1wdGs9IkFkb2JlIFhNUCBDb3JlIDUuNi1jMTExIDc5LjE1ODMyNSwgMjAxNS8wOS8xMC0wMToxMDoyMCAgICAgICAgIj4gPHJkZjpSREYgeG1sbnM6cmRmPSJodHRwOi8vd3d3LnczLm9yZy8xOTk5LzAyLzIyLXJkZi1zeW50YXgtbnMjIj4gPHJkZjpEZXNjcmlwdGlvbiByZGY6YWJvdXQ9IiIgeG1sbnM6eG1wPSJodHRwOi8vbnMuYWRvYmUuY29tL3hhcC8xLjAvIiB4bWxuczp4bXBNTT0iaHR0cDovL25zLmFkb2JlLmNvbS94YXAvMS4wL21tLyIgeG1sbnM6c3RSZWY9Imh0dHA6Ly9ucy5hZG9iZS5jb20veGFwLzEuMC9zVHlwZS9SZXNvdXJjZVJlZiMiIHhtcDpDcmVhdG9yVG9vbD0iQWRvYmUgUGhvdG9zaG9wIENDIDIwMTUgKFdpbmRvd3MpIiB4bXBNTTpJbnN0YW5jZUlEPSJ4bXAuaWlkOjAwNkM4QzZBQ0FBNzExRTU4QTkwREY5RDhFRTdEQzEyIiB4bXBNTTpEb2N1bWVudElEPSJ4bXAuZGlkOjAwNkM4QzZCQ0FBNzExRTU4QTkwREY5RDhFRTdEQzEyIj4gPHhtcE1NOkRlcml2ZWRGcm9tIHN0UmVmOmluc3RhbmNlSUQ9InhtcC5paWQ6MDA2QzhDNjhDQUE3MTFFNThBOTBERjlEOEVFN0RDMTIiIHN0UmVmOmRvY3VtZW50SUQ9InhtcC5kaWQ6MDA2QzhDNjlDQUE3MTFFNThBOTBERjlEOEVFN0RDMTIiLz4gPC9yZGY6RGVzY3JpcHRpb24+IDwvcmRmOlJERj4gPC94OnhtcG1ldGE+IDw/eHBhY2tldCBlbmQ9InIiPz42pthFAAAABlBMVEU1MS0AAAA/yckEAAAADElEQVR42mJgAAgwAAACAAFPbVnhAAAAAElFTkSuQmCC) !important;
-}
-  
 .profile-header-set-obsession, .header-featured-track, div.nag-bar, .grid-items-item-playlink, .image-overlay-playlink-link {
 display:none !important;
 }
@@ -97,6 +93,24 @@ display: none !important;
 .ot-sdk-show-settings {
 display: none !important;
 }
+
+/* Listening Reports */
+  
+.hidden-xs:nth-of-type(2) {
+display: none !important;
+}
+    
+.buffer-2 {
+display: none !important;
+}
+    
+.buffer-3.your-progress > div {
+display: none !important;
+}
+
+.btn-subscribe {
+display: none !important;
+}   
     
 /* Remove separator */
     
@@ -124,22 +138,8 @@ margin-top:0px;
 display:none!important;
 } 
  
-/* Scrobble Stats */
-    
-.hidden-xs.col-sidebar > section.buffer-standard.section-with-separator > .buffer-standard.text-light.text-12  {
-display:none!important;
-}
 
-.scrobble-stats-info-toggle {
-display: none !important;
-}
     
-/* Listening Reports */
-  
-.col-sidebar--long.col-sidebar > .hidden-xs {
-display: none !important;
-}
-  
 .user-dashboard-banner-heading,.user-dashboard-banner.link-block.js-link-block {
 display: none !important;
 }
@@ -182,15 +182,6 @@ display: none !important;
 	display:none !important;
 }
 
-/* Music */
-  
-section.music-section:nth-of-type(3) {
-display: none !important;
-}
-  
-div.page-content.container:nth-of-type(8) {
-display: none !important;
-}
 
 /* Chart List */
   
@@ -198,7 +189,7 @@ display: none !important;
 display:none !important;
 }
   
-.chartlist-index, .chartlist.chartlist--has-image td, .chartlist-ellipsis-wrap, .chartlist-countbar, .chartlist-name, .chartlist-ellipsis-wrap, .chartlist-timestamp,  .chartlist-delete {
+.chartlist-index, .chartlist.chartlist--has-image td, .chartlist-ellipsis-wrap, .chartlist-countbar, .chartlist-name, .chartlist-ellipsis-wrap, .chartlist-timestamp, .chartlist-delete {
 padding-top:1px !important;
 padding-bottom:1px ! important;
 }
@@ -305,6 +296,11 @@ display: none !important;
 
 /* Useless things */
 
+    
+#linkfire-button {
+display:none!important;
+}
+    
 .trending-tracks-section-wrapper{
 display:none!important;
 }
