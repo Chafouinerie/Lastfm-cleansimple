@@ -34,6 +34,7 @@ Etc.<br>
 
 ## Changelog
 
+1.2.4 : Minor change<br>
 1.2.3 : Minor change<br>
 1.2.2 : Minor change<br>
 1.2.1 : Minor change<br>
