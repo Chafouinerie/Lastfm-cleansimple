@@ -34,6 +34,7 @@ Etc.<br>
 
 ## Changelog
 
+1.2.8 : Remove "Greed view button"<br>
 1.2.7 : Remove "Greed view button"<br>
 1.2.6 : Remove "Listening Reports"<br>
 1.2.5 : Minor change<br>
