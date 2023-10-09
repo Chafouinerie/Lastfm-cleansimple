@@ -1,7 +1,7 @@
 /* ==UserStyle==
 @name        Last.fm - Clean & Simple
 @namespace   chafouinerie
-@version     1.2.8
+@version     1.2.9
 @homepageURL https://github.com/chafouinerie/Lastfm-cleansimple
 @license     UNLICENSE
 @author      chafouinerie
@@ -125,27 +125,7 @@ display: none !important;
 
 .btn-subscribe {
 display: none !important;
-}   
-    
-/* Remove separator */
-    
-.section-with-separator.hidden-xs.tonefuze--desktop.tonefuze{
-display:none!important;
 }
-    
-.section-with-separator::after{
-display:none!important;
-}
-    
-.user-list-shared-artists,
-.user-list-shared-artists:first-child,
-.col-sidebar.hidden-xs > section.buffer-standard{
-margin-top:0px;
-}
-    
-.col-sidebar.hidden-xs > .buffer-standard:nth-child(2){
-margin-top:0px;
-}   
     
 /* Quick Create Playlists */
     
