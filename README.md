@@ -34,6 +34,7 @@ Etc.<br>
 
 ## Changelog
 
+1.3.1 : Remove useless code
 1.3.0 : Update after website change<br>
 1.2.9 : Remove unused old code<br>
 1.2.8 : Remove "Greed view button"<br>
