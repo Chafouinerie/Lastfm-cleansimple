@@ -177,17 +177,7 @@ height:100% !important;
 .chartlist-image, .image-overlay-playlink-link {
 display:none !important;
 }
-  
-/* Player Bar */
-
-.player-bar-playback-options-button, .player-bar-playback-options-mega-menu {
-display: none !important;
-}
-  
-.player-bar-progress {
-height: 4px !important;
-}
-  
+	
 /* Recommandations */
 
 .recommended-next-page-cover-link, .recommended-next-page--artist , .recommended-next-button {
