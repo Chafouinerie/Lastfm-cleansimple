@@ -2,7 +2,7 @@
 
 A [UserCSS](https://github.com/openstyles/stylus/wiki/UserCSS) compatible userstyle manager is required, those are recommended:
 
-![Stylus](/images/Stylus.png) Stylus for [Firefox](https://addons.mozilla.org/en-US/firefox/addon/styl-us/), [Chrome](https://chrome.google.com/webstore/detail/stylus/clngdbkpkpeebahjckkjfobafhncgmne) or [Opera](https://addons.opera.com/en-gb/extensions/details/stylus/).<br>
+![Stylus](/images/Stylus.png) Stylus for [Firefox](https://addons.mozilla.org/en-US/firefox/addon/styl-us/), [Chrome](https://chrome.google.com/webstore/detail/stylus/clngdbkpkpeebahjckkjfobafhncgmne) or [Opera](https://addons.opera.com/en/extensions/details/27c0f4146c879f67a91b70f93f4eee4a01846fdd/).<br>
 ![Cascadea](/images/Cascadea.png) Cascadea for [Safari](https://cascadea.app/).
 
 The stylesheet will be updated automatically by the addon.<br>
