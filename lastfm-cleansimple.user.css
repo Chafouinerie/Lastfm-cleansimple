@@ -32,7 +32,23 @@ color:#ffffff !important;
 div.feedback-message, .copyright.col-xs-12, .col-xs-2 {
 display:none !important;
 }
-	
+
+.overlay-leaderboard {
+display:none !important;
+}
+  
+.overlay-content {
+margin-top:100px !important;
+}
+
+.overlay-control-bar {
+top:50px !important;
+}
+
+div.overlay-side-rail {
+margin-top:111px !important;
+}
+  
 .widget_listeningnow {
 display: none !important;
 }
@@ -76,7 +92,7 @@ display: none !important;
 .ot-sdk-show-settings {
 display: none !important;
 }
-
+    
 .hidden-xs.labs-cta {
 display: none !important;
 }
@@ -167,7 +183,7 @@ display:none !important;
   
 .chartlist-index, .chartlist.chartlist--has-image td, .chartlist-ellipsis-wrap, .chartlist-countbar, .chartlist-name, .chartlist-ellipsis-wrap, .chartlist-timestamp, .chartlist-delete {
 padding-top:1px !important;
-padding-bottom:1px ! important;
+padding-bottom:1px !important;
 }
 
 .chartlist-play {
@@ -178,16 +194,12 @@ height:100% !important;
 height:100% !important;
 }
   
-.chartlist-image, .image-overlay-playlink-link {
-display:none !important;
-}
-	
 /* Recommandations */
 
-.recommended-next-page-cover-link, .recommended-next-page--artist , .recommended-next-button {
+.recommended-next-page-cover-link, .recommended-next-page--artist, .recommended-next-button {
 display:none !important;
 }
-.recommended-next-page--track , .recommended-next-page-artist , .recommended-next-page-title {
+.recommended-next-page--track, .recommended-next-page-artist, .recommended-next-page-title {
 display:none !important;
 }
   
@@ -281,7 +293,7 @@ display:none!important;
 .lazy-features-page-bottom{
 display:none!important;
 }
-
+    
 .footer{
 display:none!important;
 }
