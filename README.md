@@ -34,6 +34,7 @@ Etc.<br>
 
 ## Changelog
 
+1.3.3 : Minor change<br>
 1.3.2 : Remove "Labs link"<br>
 1.3.1 : Remove useless code<br>
 1.3.0 : Update after website change<br>
