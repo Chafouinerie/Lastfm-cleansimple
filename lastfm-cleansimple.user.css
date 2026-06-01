@@ -1,7 +1,7 @@
 /* ==UserStyle==
 @name        Last.fm - Clean & Simple
 @namespace   chafouinerie
-@version     1.3.3
+@version     1.4.0
 @homepageURL https://github.com/chafouinerie/Lastfm-cleansimple
 @license     UNLICENSE
 @author      chafouinerie
@@ -9,293 +9,169 @@
 
 @-moz-document domain("www.last.fm"){
 
+/* --- Header --- */
 .header-background {
-background-image: url(data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAEAAAABCAMAAAAoyzS7AAAAGXRFWHRTb2Z0d2FyZQBBZG9iZSBJbWFnZVJlYWR5ccllPAAAAyZpVFh0WE1MOmNvbS5hZG9iZS54bXAAAAAAADw/eHBhY2tldCBiZWdpbj0i77u/IiBpZD0iVzVNME1wQ2VoaUh6cmVTek5UY3prYzlkIj8+IDx4OnhtcG1ldGEgeG1sbnM6eD0iYWRvYmU6bnM6bWV0YS8iIHg6eG1wdGs9IkFkb2JlIFhNUCBDb3JlIDUuNi1jMTExIDc5LjE1ODMyNSwgMjAxNS8wOS8xMC0wMToxMDoyMCAgICAgICAgIj4gPHJkZjpSREYgeG1sbnM6cmRmPSJodHRwOi8vd3d3LnczLm9yZy8xOTk5LzAyLzIyLXJkZi1zeW50YXgtbnMjIj4gPHJkZjpEZXNjcmlwdGlvbiByZGY6YWJvdXQ9IiIgeG1sbnM6eG1wPSJodHRwOi8vbnMuYWRvYmUuY29tL3hhcC8xLjAvIiB4bWxuczp4bXBNTT0iaHR0cDovL25zLmFkb2JlLmNvbS94YXAvMS4wL21tLyIgeG1sbnM6c3RSZWY9Imh0dHA6Ly9ucy5hZG9iZS5jb20veGFwLzEuMC9zVHlwZS9SZXNvdXJjZVJlZiMiIHhtcDpDcmVhdG9yVG9vbD0iQWRvYmUgUGhvdG9zaG9wIENDIDIwMTUgKFdpbmRvd3MpIiB4bXBNTTpJbnN0YW5jZUlEPSJ4bXAuaWlkOjAwNkM4QzZBQ0FBNzExRTU4QTkwREY5RDhFRTdEQzEyIiB4bXBNTTpEb2N1bWVudElEPSJ4bXAuZGlkOjAwNkM4QzZCQ0FBNzExRTU4QTkwREY5RDhFRTdEQzEyIj4gPHhtcE1NOkRlcml2ZWRGcm9tIHN0UmVmOmluc3RhbmNlSUQ9InhtcC5paWQ6MDA2QzhDNjhDQUE3MTFFNThBOTBERjlEOEVFN0RDMTIiIHN0UmVmOmRvY3VtZW50SUQ9InhtcC5kaWQ6MDA2QzhDNjlDQUE3MTFFNThBOTBERjlEOEVFN0RDMTIiLz4gPC9yZGY6RGVzY3JpcHRpb24+IDwvcmRmOlJERj4gPC94OnhtcG1ldGE+IDw/eHBhY2tldCBlbmQ9InIiPz42pthFAAAABlBMVEU1MS0AAAA/yckEAAAADElEQVR42mJgAAgwAAACAAFPbVnhAAAAAElFTkSuQmCC) !important;
-}
-	
-.profile-header-set-obsession, .header-featured-track, div.nag-bar, .grid-items-item-playlink, .image-overlay-playlink-link {
-display:none !important;
-}
-
-* {
-border-radius:0% !important;
-}
-
-.tasteometer-avatar.avatar {
-display:none !important;
+    background-image: url(data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAEAAAABCAMAAAAoyzS7AAAAGXRFWHRTb2Z0d2FyZQBBZG9iZSBJbWFnZVJlYWR5ccllPAAAAyZpVFh0WE1MOmNvbS5hZG9iZS54bXAAAAAAADw/eHBhY2tldCBiZWdpbj0i77u/IiBpZD0iVzVNME1wQ2VoaUh6cmVTek5UY3prYzlkIj8+IDx4OnhtcG1ldGEgeG1sbnM6eD0iYWRvYmU6bnM6bWV0YS8iIHg6eG1wdGs9IkFkb2JlIFhNUCBDb3JlIDUuNi1jMTExIDc5LjE1ODMyNSwgMjAxNS8wOS8xMC0wMToxMDoyMCAgICAgICAgIj4gPHJkZjpSREYgeG1sbnM6cmRmPSJodHRwOi8vd3d3LnczLm9yZy8xOTk5LzAyLzIyLXJkZi1zeW50YXgtbnMjIj4gPHJkZjpEZXNjcmlwdGlvbiByZGY6YWJvdXQ9IiIgeG1sbnM6eG1wPSJodHRwOi8vbnMuYWRvYmUuY29tL3hhcC8xLjAvIiB4bWxuczp4bXBNTT0iaHR0cDovL25zLmFkb2JlLmNvbS94YXAvMS4wL21tLyIgeG1sbnM6c3RSZWY9Imh0dHA6Ly9ucy5hZG9iZS5jb20veGFwLzEuMC9zVHlwZS9SZXNvdXJjZVJlZiMiIHhtcDpDcmVhdG9yVG9vbD0iQWRvYmUgUGhvdG9zaG9wIENDIDIwMTUgKFdpbmRvd3MpIiB4bXBNTTpJbnN0YW5jZUlEPSJ4bXAuaWlkOjAwNkM4QzZBQ0FBNzExRTU4QTkwREY5RDhFRTdEQzEyIiB4bXBNTTpEb2N1bWVudElEPSJ4bXAuZGlkOjAwNkM4QzZCQ0FBNzExRTU4QTkwREY5RDhFRTdEQzEyIj4gPHhtcE1NOkRlcml2ZWRGcm9tIHN0UmVmOmluc3RhbmNlSUQ9InhtcC5paWQ6MDA2QzhDNjhDQUE3MTFFNThBOTBERjlEOEVFN0RDMTIiIHN0UmVmOmRvY3VtZW50SUQ9InhtcC5kaWQ6MDA2QzhDNjlDQUE3MTFFNThBOTBERjlEOEVFN0RDMTIiLz4gPC9yZGY6RGVzY3JpcHRpb24+IDwvcmRmOlJERj4gPC94OnhtcG1ldGE+IDw/eHBhY2tldCBlbmQ9InIiPz42pthFAAAABlBMVEU1MS0AAAA/yckEAAAADElEQVR42mJgAAgwAAACAAFPbVnhAAAAAElFTkSuQmCC) !important;
 }
 
 .header-scrobble-since {
-color:#ffffff !important;
-}
-  
-div.feedback-message, .copyright.col-xs-12, .col-xs-2 {
-display:none !important;
+    color: #ffffff !important;
 }
 
+.profile-header-set-obsession, 
+.header-featured-track, 
+div.nag-bar, 
+.grid-items-item-playlink, 
+.image-overlay-playlink-link {
+    display: none !important;
+}
+
+/* --- Global Design --- */
+* {
+    border-radius: 0% !important;
+}
+
+.tasteometer-avatar.avatar {
+    display: none !important;
+}
+
+/* --- UI & Layout --- */
+div.feedback-message, 
+.copyright.col-xs-12, 
+.col-xs-2,
 .overlay-leaderboard {
-display:none !important;
+    display: none !important;
 }
   
-.overlay-content {
-margin-top:100px !important;
-}
-
-.overlay-control-bar {
-top:50px !important;
-}
-
-div.overlay-side-rail {
-margin-top:111px !important;
-}
+.overlay-content { margin-top: 100px !important; }
+.overlay-control-bar { top: 50px !important; }
+div.overlay-side-rail { margin-top: 111px !important; }
   
-.widget_listeningnow {
-display: none !important;
-}
-
-.user-follow {
-display: none !important;
-}
-
-.featured-item--truncated {
-display: none !important;
-}
-
-.suggest-correction-cta {
-display: none !important;
-}
-  
-.subscribe-cta {
-display: none !important;
-}
-
-.shout--deleted {
-display: none !important;
-}
- 
-.alert-warning {
-display: none !important;
-}
-  
-.gallery-upload-rules {
-display: none !important;
-}
-
-.js-close-player {
-display: none !important;
-}
-  
-#_evh-link {
-display: none !important;
-}
-  
-.ot-sdk-show-settings {
-display: none !important;
-}
-    
-.hidden-xs.labs-cta {
-display: none !important;
-}
-
-/* Listening Reports */
-    
-section.hidden-xs > h2 {
-display: none !important;
-}
-
-.listening-report-promo--week.listening-report-promo {
-display: none !important;
-}
-    
-.listening-report-promo--month.listening-report-promo {
-display: none !important;
-}
-
-.listening-report-promo--year.listening-report-promo {
-display: none !important;
-}
-    
-.buffer-2 {
-display: none !important;
-}
-    
-.buffer-3.your-progress > div {
-display: none !important;
-}
-
+.widget_listeningnow,
+.user-follow,
+.suggest-correction-cta,
+.subscribe-cta,
+.shout--deleted,
+.alert-warning,
+.gallery-upload-rules,
+.ot-sdk-show-settings,
+.hidden-xs.labs-cta,
 .btn-subscribe {
-display: none !important;
-}
-    
-/* Quick Create Playlists */
-    
-.hidden-xs.col-sidebar > form.buffer-standard.section-with-separator{
-display:none!important;
-} 
- 
-.user-dashboard-banner-heading,.user-dashboard-banner.link-block.js-link-block {
-display: none !important;
+    display: none !important;
 }
 
-.user-dashboard-module-share {
-display: none !important;
+/* --- Listening Reports --- */
+section.hidden-xs > h2,
+.listening-report-promo--week.listening-report-promo,
+.listening-report-promo--month.listening-report-promo,
+.listening-report-promo--year.listening-report-promo,
+.buffer-2,
+.buffer-3.your-progress > div {
+    display: none !important;
 }
-
-.user-dashboard-musical-matches, .user-dashboard-mainstream {
-display: none !important;
-}
-
-.share-footer {
-display: none !important;
-}
-
-.clearfix.content-form.section-with-settings.content-form {
-margin-top: 0px;
-}
-
-/* Update to pro */
-  
-.user-dashboard-history-subscribe-banner-cta-inner.user-dashboard-module {
-display: none !important;
-}
-
-.user-dashboard-col.col-sm-12 > .user-dashboard-module > .user-dashboard-module-inner-wrap {
-display: none !important;
-}
-  
-.minimal-navigation-item--month.minimal-navigation-item.navlist-item > .minimal-navigation-item-link {
-display: none !important;
-}
-  
+     
+/* --- Dashboard --- */
+.hidden-xs.col-sidebar > form.buffer-standard.section-with-separator,
+.user-dashboard-banner-heading,
+.user-dashboard-banner.link-block.js-link-block,
+.user-dashboard-module-share,
+.user-dashboard-musical-matches, 
+.user-dashboard-mainstream,
+.user-dashboard-col.col-sm-12 > .user-dashboard-module > .user-dashboard-module-inner-wrap,
 .auth-dropdown-pro-text.auth-dropdown-menu-item {
-display: none !important;
-}
-  
-.secondary-nav-item--month.secondary-nav-item.navlist-item > .secondary-nav-item-link {
-	display:none !important;
+    display: none !important;
 }
 
-/* Chart List */
-  
-.chartlist-image, .image-overlay-playlink-link {
-display:none !important;
-}
-  
-.chartlist-index, .chartlist.chartlist--has-image td, .chartlist-ellipsis-wrap, .chartlist-countbar, .chartlist-name, .chartlist-ellipsis-wrap, .chartlist-timestamp, .chartlist-delete {
-padding-top:1px !important;
-padding-bottom:1px !important;
+.clearfix.content-form.section-with-settings {
+    margin-top: 0px !important;
 }
 
-.chartlist-play {
-height:100% !important;
+/* --- Chart List --- */
+.chartlist-image, 
+.image-overlay-playlink-link {
+    display: none !important;
 }
   
+.chartlist-index, 
+.chartlist.chartlist--has-image td, 
+.chartlist-ellipsis-wrap, 
+.chartlist-countbar, 
+.chartlist-name, 
+.chartlist-timestamp, 
+.chartlist-delete {
+    padding-top: 1px !important;
+    padding-bottom: 1px !important;
+}
+
+.chartlist-play,
 .chartlist-name {
-height:100% !important;
+    height: 100% !important;
 }
   
-/* Recommandations */
-
-.recommended-next-page-cover-link, .recommended-next-page--artist, .recommended-next-button {
-display:none !important;
-}
-.recommended-next-page--track, .recommended-next-page-artist, .recommended-next-page-title {
-display:none !important;
-}
-  
-/* Social Links */ 
-
-.share-button-profile {
-display: none !important;
-}
-
-.share-button-library {
-display: none !important;
+/* --- Recommendations --- */
+.recommended-next-page-cover-link, 
+.recommended-next-page--artist, 
+.recommended-next-button,
+.recommended-next-page--track, 
+.recommended-next-page-artist, 
+.recommended-next-page-title {
+    display: none !important;
 }
   
+/* --- Social & Share Links --- */ 
+.share-button-profile,
+.share-button-library,
 .share-desktop,
 .share-mobile,
 .share-chart .share-button-profile,
 .user-dashboard-module .user-dashboard-module-share,
 .user-dashboard-share,
 .share-footer,
-.share-chart{
-display:none!important;
+.share-chart {
+    display: none !important;
 }
+
 .stationlinks,
-.buylinks{
-margin-top:0px;
+.buylinks {
+    margin-top: 0px !important;
 }
+
 .section-with-settings.section-with-share .section-control {
-right: 26px;
+    right: 26px;
 }
 
-/* Buy Links */
- 
-.lazy-buylinks-toggle--with-icon, .lazy-buylinks-toggle, .amazon-music-deal {
-display: none !important;
-}
-
+/* --- Buy Links --- */
+.lazy-buylinks-toggle--with-icon, 
+.lazy-buylinks-toggle, 
+.amazon-music-deal,
 #buy {
-display: none !important;
+    display: none !important;
 }
 
-div[id*="lazy-load"] {
-display: none !important;
+/* --- Ads & Cleanup --- */
+.mpu-subscription-upsell--mpu,
+.related-ads, 
+.related-content, 
+.features-promoted, 
+.mobile_pos_1, 
+.mobile_pos_2, 
+.mobile_pos_3, 
+.mobile_pos_4,
+.features-footer,
+.trending-tracks,
+.lastfm-ad,
+.full-bleed-ad-container, 
+.sidebar-ad-container,
+.trending-tracks-section-wrapper,
+.lazy-features-page-bottom,
+.footer {
+    display: none !important;
 }
 
-/* Ads */
-
-.mpu-subscription-upsell--mpu {
-display: none !important;
-}
-
-.cf_amazon_plain, #tonefuze-desktop, #leader_top, #mpu_top, #mpu_bottom, .related-ads, #leader_bottom, .related-content, .yahoo-search-ads, .yahoo-search-ads iframe, .features-promoted, .mobile_pos_1, .mobile_pos_2, .mobile_pos_3, .mobile_pos_4 {
-display: none !important;
-}
-
-.features-footer {
-display: none !important;
-}
-
-.trending-tracks {
-display: none !important;
-}
-
-.lastfm-ad
-{
-  display: none!important;
-}
-
-.full-bleed-ad-container, .sidebar-ad-container
-{
-  display: none!important;
-}
-
-/* Useless things */
-
-.disclose-trigger.library-view-button {
-display:none!important;
-}
-    
+/* --- Miscellaneous --- */
+.disclose-trigger.library-view-button,
 #grid-view-icon > path {
-display:none!important;
-}
-
-#linkfire-button {
-display:none!important;
-}
-    
-.trending-tracks-section-wrapper{
-display:none!important;
-}
-
-.lazy-features-page-bottom{
-display:none!important;
-}
-    
-.footer{
-display:none!important;
+    display: none !important;
 }
 
 }
