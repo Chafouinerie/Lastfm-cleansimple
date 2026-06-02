@@ -1,7 +1,7 @@
 /* ==UserStyle==
 @name        Last.fm - Clean & Simple
 @namespace   chafouinerie
-@version     1.4.0
+@version     1.4.1
 @homepageURL https://github.com/chafouinerie/Lastfm-cleansimple
 @license     UNLICENSE
 @author      chafouinerie
@@ -166,6 +166,10 @@ section.hidden-xs > h2,
 .lazy-features-page-bottom,
 .footer {
     display: none !important;
+}
+
+#onetrust-consent-sdk {
+display: none !important;
 }
 
 /* --- Miscellaneous --- */
