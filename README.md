@@ -34,6 +34,7 @@ Etc.<br>
 
 ## Changelog
 
+1.4.1 : Remove "One Trust" button<br>
 1.4.0 : Remove unused old code<br>
 1.3.3 : Minor change<br>
 1.3.2 : Remove "Labs link"<br>
